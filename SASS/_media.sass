@@ -1,0 +1,29 @@
+@media  ( max-width: 1200px)
+    .content
+        width: 600px
+
+@media  ( max-width: 960px)
+    .content
+        width: 500px
+
+@media  ( max-width: 500px)
+    h1
+        font-size: 30px
+    .content
+        width: 100vw
+    .buttons
+        .btn
+            height: 35px
+            width: 35px
+            font-size: 25px
+            &:disabled
+                &::after
+                    width: 35px
+
+                &::before
+                    width: 35px
+
+    .letters
+        font-size: 20px
+    #canvas
+        height: 150px
